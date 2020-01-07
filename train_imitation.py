@@ -91,9 +91,9 @@ net = ResNet34()
 print("Model Instantiated")
 
 # uncomment this part to restore weights
-checkpoint = torch.load('NEW_ResNet34_augmented-80-0.0034.pth')
-net.load_state_dict(checkpoint)
-print('Restoring parameters')
+# checkpoint = torch.load('checkpoint_imitation.pth')
+# net.load_state_dict(checkpoint)
+# print('Restoring parameters')
 
 net = net.to(device)
 
