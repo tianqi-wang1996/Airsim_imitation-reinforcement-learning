@@ -235,7 +235,7 @@ validation_times = 5
 writer = SummaryWriter(log_dir='RL_DDPG_RES34_from_scratch')
 
 agent = DDPG(gamma, tau)
-agent.load_model('NEW_ResNet34_augmented-80-0.0034.pth', 'NEW_ResNet34_augmented-80-0.0034.pth')
+agent.load_model('checkpoint_imitation.pth', 'checkpoint_imitation.pth')
 
 ounoise = OUNoise(3)
 
