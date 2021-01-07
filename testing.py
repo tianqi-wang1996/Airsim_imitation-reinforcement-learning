@@ -26,7 +26,8 @@ net = ResNet34()
 print("Model Instantiated")
 
 
-checkpoint = torch.load('NEW_ResNet34_augmented-80-0.0034.pth')
+checkpoint = torch.load('checkpoint_imitation.pth')
+# checkpoint = torch.load('checkpoint_reinforcement.pth')
 
 net.load_state_dict(checkpoint)
 print('Restoring parameters')
