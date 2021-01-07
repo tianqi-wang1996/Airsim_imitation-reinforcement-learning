@@ -3,7 +3,10 @@ This is the code for my published paper: Improved Reinforcement Learning through
 [![video](gif/final_camera.gif)](https://www.youtube.com/watch?v=yjmM70alCSQ&feature=youtu.be)
 
 ## my collected data for imitation learning stage
-[Google drive link](https://drive.google.com/file/d/1WVL1wdGnKJSbsLFM9pflKOJxj7JhCR4G/view?usp=sharing)
+[Google drive link for training data](https://drive.google.com/file/d/1WVL1wdGnKJSbsLFM9pflKOJxj7JhCR4G/view?usp=sharing)
+[Google drive link for validation data](https://drive.google.com/file/d/1NohcpousVPlm5DmoUfZjTlnmSLzhMOnO/view?usp=sharing)
+After download these files, put them under ./Airsim_imitation-reinforcement-learning folder.
+
 ## Pretrained weights
 After imitaion learning stage:
 `checkpoint_imitation.pth`
