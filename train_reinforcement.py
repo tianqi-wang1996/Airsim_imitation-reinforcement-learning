@@ -361,8 +361,8 @@ transform = transforms.Compose([
     transforms.Normalize(TRAIN_MEAN, TRAIN_STD)
 ])
 
-train_set = TrainingDataset(transform=transform)
-train_loader = DataLoader(train_set, batch_size=batch_size, shuffle=True, drop_last=True)
+# train_set = TrainingDataset(transform=transform)
+# train_loader = DataLoader(train_set, batch_size=batch_size, shuffle=True, drop_last=True)
 
 for i_episode in range(1, num_episodes):
     if len(replay_experiences) > MEMORY_SIZE:
